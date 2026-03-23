@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-
+ 
 # getting api keys from .env file
 os.getenv("GROQ_API_KEY")
 
